@@ -54,6 +54,9 @@ header{
 .Categories a:visited {
     color: blue;
 }
+ul {
+    list-style-type: none;
+}
 .Categories a:hover{
     background-color: blueviolet;
 }
