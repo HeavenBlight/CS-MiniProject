@@ -27,7 +27,7 @@ body{
     background-color: aquamarine;
     margin: 0;
     display: grid;
-    background-image:url(/bg/outrun-neon-dark-background-purple-3840x2160-4523.jpg);
+    background-image:url(bg/outrun-neon-dark-background-purple-3840x2160-4523.jpg);
     background-position: center;
     background-size: cover;
     background-attachment:fixed;
