@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image:url(../bg/5432299.jpg);
+    background-image: url('../bg/5432299.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -14,7 +14,7 @@ form {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
 }
 
 label {
@@ -37,6 +37,7 @@ button {
     color: white;
     font-size: 1.2em;
     cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
