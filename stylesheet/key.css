@@ -1,0 +1,40 @@
+body {
+    font-family: Opensans-LightItalic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #333; /* dark background for readability */
+    margin: 0;
+    padding: 20px;
+    background-image: url('../5432299.jpg');
+    font-size: 200%;
+}
+
+.container {
+    max-width: 800px; /* set maximum width for content */
+    margin: 0 auto; /* center the container horizontally */
+    text-align: center; /* center the content inside the container */
+}
+
+header {
+    background: linear-gradient(135deg, #580b4e, #634abe);
+    border-bottom: 4px solid #333;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.answer {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9a7b0; /* purplish-pink */
+    color: #fff; /* white text */
+    border: 1px solid #f9a7b0; /* border color matches background */
+    border-radius: 5px;
+}
+
+.answer strong {
+    font-weight: bold;
+}
+
+.answer:nth-child(even) {
+    background-color: #d091a9; /* lighter purplish-pink */
+}
